@@ -1,17 +1,18 @@
 # Site settings
 title: A basdasd
 description: A bloads
- baseurl: "https://aleyg.github.io" # the subpath of your site, e.g. /blog
-
+ baseurl: "https://aleyg.github.io" 
 
 # User settings
 username: aleyg
 user_description: aaaa
 user_title: Software Developer
-email: anon@anon.com
+email: azxcn@gmail.com
 twitter_username: lorem_ipsum
 github_username:  lorem_ipsum
 gplus_username:  lorem_ipsum
 
+plugins:
+  - "jekyll-github-metadata"
 
 exclude: ['package.json', 'src' , 'node_modules']
