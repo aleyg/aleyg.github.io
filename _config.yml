@@ -1,7 +1,9 @@
 # Site settings
 title: A basdasd
 description: A bloads
- baseurl: "https://aleyg.github.io" 
+baseurl: "/" 
+url: "https://aleyg.github.io" 
+
 
 # User settings
 username: aleyg
