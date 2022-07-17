@@ -1,8 +1,8 @@
 # Site settings
 title: A basdasd
 description: A bloads
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
- url: "aleyg.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+ baseurl: "aleyg.github.io" # the subpath of your site, e.g. /blog
+ #url: "aleyg.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: aleyg
