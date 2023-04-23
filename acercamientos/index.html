@@ -103,31 +103,98 @@
           setSelectedMenu(menu);
         };
 
+        const BASE_URL = 'https://asteroidesinaoe.github.io/';
         const menuOptions = [
           {
-            name: 'Inicio',
-            link: 'https://asteroidesinaoe.github.io/asteroides/'
+            name: 'Asteroides',
+            link: '${BASE_URL}asteroides'
           },
           {
-            name: 'Productos',
+            name: 'Fotometría',
+            link: '${BASE_URL}fotometria',
             submenus: [
               {
-                name: 'Producto 1',
-                link: '/producto-1'
+                name: 'Análisis de Fourier',
+                link: '${BASE_URL}fotometria/fourier'
               },
               {
-                name: 'Producto 2',
-                link: '/producto-2'
+                name: 'MPO Canopus',
+                link: '${BASE_URL}fotometria/mpo-canopus'
+              }]
+          },
+          {
+            name: 'Espectroscopía',
+            link: '${BASE_URL}espectroscopia'
+          },
+          {
+            name: 'Infografías',
+            link: '${BASE_URL}infografias',
+            submenus:[
+              {  
+              name: 'Impactos en México',
+              link: '${BASE_URL}infografias/meteoritos-mexico'
               },
               {
-                name: 'Producto 3',
-                link: '/producto-3'
+              name: 'Impactos en el mundo',
+              link: '${BASE_URL}infografias/meteoritos-mundo/'
+              },
+              {  
+              name: 'Acercamientos',
+              link: '${BASE_URL}infografias/acercamientos/'
+              },
+              {
+              name: 'Biografías',
+              link: '${BASE_URL}infografias/biografias/'
+              }
+            ]
+          },
+          {
+            name: 'Riesgo de impacto',
+            link: '${BASE_URL}riesgo_de_impacto'
+          },
+          {
+            name: 'Actividades',
+            link: '${BASE_URL}actividades',
+            submenus:[
+              {  
+              name: 'Curvaz de luz',
+              link: '${BASE_URL}actividades/curva-de-luz/'
+              },
+              {
+              name: 'Órbitas',
+              link: '${BASE_URL}actividades/orbitas/'
+              },
+              {  
+              name: 'Taxonomía',
+              link: '${BASE_URL}actividades/taxonomia/'
+              },
+              {
+              name: 'Nombres',
+              link: '${BASE_URL}actividades/nombres'
+              }
+            ]
+          },
+          {
+            name: 'Glosario',
+            link: '${BASE_URL}glosario'
+          },
+          {
+            name: 'Aprender más',
+            link: '${BASE_URL}aprender-mas',
+            submenus:[
+              {  
+              name: 'Rayos cósmicos',
+              link: '${BASE_URL}aprender-mas/rayos-cosmicos/'
+              },
+              {
+              name: 'CCD',
+              link: '${BASE_URL}aprender-mas/ccd'
               }
             ]
           },
           {
             name: 'Contacto',
-            link: '/contacto'
+            link: '${BASE_URL}contacto'
           }
         ];
 
