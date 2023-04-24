@@ -132,6 +132,14 @@ header {
   align-items: center;
 }
 
+
+
+
+
+
+
+
+
 /* Menú principal */
 /*BARRA MENU*/
 .container__menu {
@@ -145,7 +153,7 @@ header {
 }
 
 .menu {
-  max-width: 1200px;
+  max-width: 100%;
   margin: auto;
   height: 100%;
 }
@@ -278,6 +286,14 @@ nav ul li ul li a:hover {
 #check__menu {
   display: none;
 }
+
+
+
+
+
+
+
+
 
 
 /* Menú de la página  2*/
