@@ -1,8 +1,7 @@
-import styled from 'styled components';
+import styled from "styled components";
 
 export const Container = styled.div`
     width: 100%;
-    max-width
     height: 55px;
     position: sticky;
     top: 0;
