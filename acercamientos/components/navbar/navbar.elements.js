@@ -1,6 +1,15 @@
 import styled from 'styled components';
 
-export const Container = styler.div``;
+export const Container = styled.div`
+    width: 100%;
+    max-width
+    height: 55px;
+    position: sticky;
+    top: 0;
+    background: #023877;
+    padding: 0px 25px;
+    z-index: 3;    
+`;
 
 export const Wrapper = styled.div``;
 

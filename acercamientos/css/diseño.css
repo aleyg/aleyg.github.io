@@ -144,6 +144,7 @@ header {
 /*BARRA MENU*/
 .container__menu {
   width: 100%;
+  
   height: 55px;
   position: sticky;
   top: 0;
@@ -153,7 +154,7 @@ header {
 }
 
 .menu {
-  max-width: 100%;
+  max-width: 1200px;
   margin: auto;
   height: 100%;
 }
